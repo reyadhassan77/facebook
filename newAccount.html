@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create new account</title>
+</head>
+<body>
+    <h3>Get started on Facebook with a Meta Account</h3>
+<p>A Meta Account lets you access multiple Meta technologies, like Facebook, easily and securely.</p>
+<form action="register.php" method="POST">
+    <h4>Name</h4>
+    <input type="text" id="first_name" name="first_name" required placeholder="First Name">
+    <input type="text" id="last_name" name="last_name" required placeholder="Last Name">
+    <br><br>
+    <label for="birthday">Birthday</label>
+    <input type="date" id="birthday" name="birthday" required>
+<br>
+<label for="gender">Gender</label>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label>
+<br><br>
+    <input type="email" id="email" name="email" required placeholder="Email">
+    <br>
+    <input type="password" id="password" name="password" required placeholder="Password">
+
+    <br>
+    <button type="submit" value="Create Account">Create Account</button>
+    <br>
+    <a href="login.php">Already have an account? Log in</a>
+</form>
+
+</body>
+</html>
